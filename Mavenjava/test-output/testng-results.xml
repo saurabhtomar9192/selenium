@@ -1,64 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76347" started-at="2019-08-03T19:13:42Z" finished-at="2019-08-03T19:14:58Z">
+  <suite name="Suite" duration-ms="245" started-at="2019-09-16T05:36:26Z" finished-at="2019-09-16T05:36:27Z">
     <groups>
       <group name="smoke">
-        <method signature="HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@46d56d67]" name="homepage1" class="qaclickacademy.HomePage"/>
+        <method signature="HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679]" name="homepage1" class="qaclickacademy.HomePage"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="76347" started-at="2019-08-03T19:13:42Z" finished-at="2019-08-03T19:14:58Z">
+    <test name="Test" duration-ms="245" started-at="2019-09-16T05:36:26Z" finished-at="2019-09-16T05:36:27Z">
       <class name="qaclickacademy.HomePage">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:qaclickacademy.HomePage@46d56d67]" name="intialize" duration-ms="35039" started-at="2019-08-03T19:13:42Z" finished-at="2019-08-03T19:14:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intialize -->
-        <test-method status="FAIL" signature="homepage1()[pri:0, instance:qaclickacademy.HomePage@46d56d67]" name="homepage1" duration-ms="41052" started-at="2019-08-03T19:14:17Z" depends-on-methods="qaclickacademy.HomePage.intialize" finished-at="2019-08-03T19:14:58Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="intialize()[pri:0, instance:qaclickacademy.HomePage@29774679]" name="intialize" duration-ms="34" started-at="2019-09-16T05:36:27Z" finished-at="2019-09-16T05:36:27Z">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ap_email']"}
-  (Session info: chrome=75.0.3770.142)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SAURABH', ip: '169.254.129.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58543}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: ea4bb88ac233cf04aa331b08bea626a2
-*** Element info: {Using=xpath, value=//*[@id='ap_email']}]]>
+              <![CDATA[C:\Users\Saurabh\Mavenjava\src\main\java\qaclickacademy\data.properties (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ap_email']"}
-  (Session info: chrome=75.0.3770.142)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SAURABH', ip: '169.254.129.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58543}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: ea4bb88ac233cf04aa331b08bea626a2
-*** Element info: {Using=xpath, value=//*[@id='ap_email']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageObject.Login2_users.email(Login2_users.java:31)
-at qaclickacademy.HomePage.homepage1(HomePage.java:98)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Saurabh\Mavenjava\src\main\java\qaclickacademy\data.properties (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at qaclickacademy.Basic.intializebrowser(Basic.java:27)
+at qaclickacademy.HomePage.intialize(HomePage.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -86,11 +50,42 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="SKIP" signature="homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679]" name="homepage1" duration-ms="0" started-at="2019-09-16T05:36:27Z" depends-on-methods="qaclickacademy.HomePage.intialize" finished-at="2019-09-16T05:36:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage1 -->
       </class> <!-- qaclickacademy.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 01 10:32:17 IST 2019</td>
+<td>Started on:</td><td>Mon Sep 16 11:06:26 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (242 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (245 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>smoke </td>
 </tr><tr>
@@ -76,20 +76,29 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='qaclickacademy.HomePage.intialize()'><b>intialize</b><br>Test class: qaclickacademy.HomePage</td>
-<td><div><pre>org.testng.TestNGException: 
-Cannot inject @Test annotated Method [intialize] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace540585569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace540585569'><pre>org.testng.TestNGException: 
-Cannot inject @Test annotated Method [intialize] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Saurabh\Mavenjava\src\main\java\qaclickacademy\data.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at qaclickacademy.Basic.intializebrowser(Basic.java:27)
+	at qaclickacademy.HomePage.intialize(HomePage.java:30)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace503195940", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace503195940'><pre>java.io.FileNotFoundException: C:\Users\Saurabh\Mavenjava\src\main\java\qaclickacademy\data.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at qaclickacademy.Basic.intializebrowser(Basic.java:27)
+	at qaclickacademy.HomePage.intialize(HomePage.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -121,8 +130,8 @@ For more information on native dependency injection please refer to http://testn
 <tr>
 <td title='qaclickacademy.HomePage.homepage1()'><b>homepage1</b><br>Test class: qaclickacademy.HomePage</td>
 <td><div><pre>java.lang.Throwable: Method HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679] depends on not successfully finished methods
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace540642172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace540642172'><pre>java.lang.Throwable: Method HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1033490990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033490990'><pre>java.lang.Throwable: Method HomePage.homepage1()[pri:0, instance:qaclickacademy.HomePage@29774679] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
